@@ -26,12 +26,6 @@ Digito o código para iniciar os testes automatizados.
 mvn test -Dtest=**/*RunCucumberTest cluecumber-report:reporting
 ```
 
-Digito o código para abrir o resultado dos testes automatizados.
-
-```
-allure serve output
-```
-
 ## 🛠️ Construído com
 
 Mencione as ferramentas que você usou para criar seu projeto
