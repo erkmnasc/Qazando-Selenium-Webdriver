@@ -1,4 +1,4 @@
-# Automação Web com CodeceptJS + Webdriver
+# Automação de Testes Avançado Com Selenium e Java
 
 Automação de Testes com Selenium WebDriver e Java. Projeto realizado no curso Trilha QA da Qazando.
 
