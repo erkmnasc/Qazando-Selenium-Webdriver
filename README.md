@@ -23,7 +23,14 @@ git clone https://github.com/erkmnasc/Qazando-Selenium-Webdriver-Basico.git
 Digito o código para iniciar os testes automatizados.
 
 ```
-mvn test -Dtest=**/*RunCucumberTest cluecumber-report:reporting
+Para executar no Google Chrome digite: mvn test -Dtest=RunCucumber -Dbrowser=chrome
+Para executar no Firefox digite: mvn test -Dtest=RunCucumber -Dbrowser=firefox
+```
+
+Para gerar os relátorios.
+
+```
+Digite o comando: mvn cluecumber-report:reporting
 ```
 
 ## 🛠️ Construído com
@@ -36,8 +43,6 @@ Mencione as ferramentas que você usou para criar seu projeto
 * [Junit](https://junit.org/junit5/)
 * [Google WebDriver](https://chromedriver.chromium.org/downloads)
 * [Firefox WebDriver](https://github.com/mozilla/geckodriver)
-* 
-* 
 
 ## ✒️ Autores
 
@@ -51,14 +56,12 @@ Linkedin - (https://www.linkedin.com/in/erick-nascimento/)
 
 GitShowCase - (https://www.gitshowcase.com/erkmnasc)
 
-
 ## 🎁 Expressões de gratidão
 
 * Conte a outras pessoas sobre este projeto 📢;
 * Convide alguém da equipe para uma cerveja 🍺;
 * Um agradecimento publicamente 🫂;
 * etc.
-
 
 ---
 ⌨️ com ❤️ por [Erick Nascimento](https://github.com/erkmnasc) 😊
