@@ -1,6 +1,6 @@
 # Automação de Testes Avançado Com Selenium e Java
 
-Automação de Testes com Selenium WebDriver e Java. Projeto realizado no curso Trilha QA da Qazando.
+Automação de Testes Avançado Com Selenium e Java Básico. Projeto realizado no curso Trilha QA da Qazando.
 
 ## 🚀 Começando
 
@@ -20,11 +20,16 @@ git clone https://github.com/erkmnasc/Qazando-Selenium-Webdriver-Basico.git
 
 ### 🔩 Analise os testes de ponta a ponta
 
-Digito o código para iniciar os testes automatizados.
+Para executar no Google Chrome digite:
 
 ```
-Para executar no Google Chrome digite: mvn test -Dtest=RunCucumber -Dbrowser=chrome
-Para executar no Firefox digite: mvn test -Dtest=RunCucumber -Dbrowser=firefox
+mvn test -Dtest=RunCucumber -Dbrowser=chrome
+```
+
+Para executar no Firefox digite:
+
+```
+ mvn test -Dtest=RunCucumber -Dbrowser=firefox
 ```
 
 Para gerar os relátorios.
@@ -40,7 +45,9 @@ Mencione as ferramentas que você usou para criar seu projeto
 * [Selenium WebDriver](https://www.selenium.dev/documentation/webdriver/)
 * [Java Development Kit 8](https://www.oracle.com/br/java/technologies/javase-jdk8-doc-downloads.html)
 * [Mavem](https://maven.apache.org/)
+* [Cucumber](https://cucumber.io/)
 * [Junit](https://junit.org/junit5/)
+* [cluecumber-report-plugin](https://github.com/trivago/cluecumber)
 * [Google WebDriver](https://chromedriver.chromium.org/downloads)
 * [Firefox WebDriver](https://github.com/mozilla/geckodriver)
 
